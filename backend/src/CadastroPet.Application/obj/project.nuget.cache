@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DHfHRyAS8/Y=",
+  "success": true,
+  "projectFilePath": "/Users/josuenm/Documents/CSHARP .NET/CadastroPet/backend/src/CadastroPet.Application/CadastroPet.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/josuenm/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
