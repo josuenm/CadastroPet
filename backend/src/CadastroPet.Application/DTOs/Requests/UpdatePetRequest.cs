@@ -7,8 +7,8 @@ public record UpdatePetRequest(
     string? ownerName,
     DateOnly? birthDate,
     decimal? weight,
-    Sex sex,
-    Specie specie,
+    Sex? sex,
+    Specie? specie,
     string? coat,
     bool? vaccinated,
     string? ownerPhone

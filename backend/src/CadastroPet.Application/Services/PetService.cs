@@ -86,7 +86,7 @@ public class PetService : IPetService
         );
     }
 
-    public async Task<bool> DeletePetById(Guid id)
+    public async Task<bool> DeletePetByIdAsync(Guid id)
     {
         var pet = await _petRepository.FindByIdAsync(id);
         if (pet == null) return false;
@@ -97,7 +97,7 @@ public class PetService : IPetService
         return true;
     }
 
-    public async Task<PetResponse?> UpdatePetById(Guid id, UpdatePetRequest data)
+    public async Task<PetResponse?> UpdatePetByIdAsync(Guid id, UpdatePetRequest data)
     {
         var pet = await _petRepository.FindByIdAsync(id);
         if (pet == null) return null;
